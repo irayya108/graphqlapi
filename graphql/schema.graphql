@@ -1,0 +1,40 @@
+# type irayya {
+#   name: String!
+#   age: Int!
+#   gender: String!
+# }
+
+# type Person {
+#   id: String!
+#   name: String!
+#   age: Int!
+#   gender: String!
+# }
+
+# type Query {
+#   people: [Person]!
+#   person(id: Int!): Person
+# }
+
+type Movie {
+  id: String!
+  title: String!
+  rating: Float!
+  summary: String!
+  language: String!
+  medium_cover_image: String!
+}
+
+# type Query {
+#   movies: [Movie]!
+#   movie(id: Int!): Movie
+# }
+
+# type Mutation {
+#   addMovie(name: String!, score: Int!): Movie!
+#   deleteMovie(id: Int!): Boolean!
+# }
+
+type Query {
+  movies(limit: Int, rating: Float): [Movie]
+}
