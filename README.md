@@ -19,6 +19,8 @@ git remote add origin "url of the git repo"
 git pull origin master
 ```
 
+or we can initialize our projecxt
+
 
 
 finally it will creates the package.json
