@@ -19,7 +19,12 @@ git remote add origin "url of the git repo"
 git pull origin master
 ```
 
-or we can initialize our projecxt
+or we can initialize our project using the command
+
+```
+yarn init --yes
+
+```
 
 
 
