@@ -13,6 +13,13 @@ To initialize the our projet we have to run ```yarn init``` command
 - entry point: index.js
 - repository ur: (your repository url)
 - author: name of the author
+```
+git init .
+git remote add origin "url of the git repo"
+git pull origin master
+```
+
+
 
 finally it will creates the package.json
 
